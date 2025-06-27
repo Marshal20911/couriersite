@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SwiftCourier - Fast & Reliable Delivery</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">SwiftCourier</div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#tracking">Tracking</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="auth-buttons">
+        <button class="btn btn-login">Login</button>
+        <button class="btn btn-register">Register</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Fast & Reliable Courier Services</h1>
+          <p>Delivering your packages with speed and care across the globe</p>
+          <button class="btn btn-primary">Schedule a Pickup</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="tracking" class="tracking">
+      <div class="container">
+        <h2>Track Your Package</h2>
+        <form id="tracking-form">
+          <input type="text" id="tracking-number" placeholder="Enter tracking number" required>
+          <button type="submit" class="btn btn-primary">Track</button>
+        </form>
+        <div id="tracking-result"></div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <i class="fas fa-shipping-fast"></i>
+            <h3>Express Delivery</h3>
+            <p>Same day and next day delivery options for urgent shipments.</p>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-globe"></i>
+            <h3>International</h3>
+            <p>Reliable international shipping to over 200 countries.</p>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-box-open"></i>
+            <h3>Warehousing</h3>
+            <p>Secure storage solutions for your inventory and goods.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <h2>Pricing Plans</h2>
+        <div class="pricing-grid">
+          <div class="pricing-card">
+            <h3>Standard</h3>
+            <div class="price">$5.99</div>
+            <ul>
+              <li>3-5 business days</li>
+              <li>Up to 5 lbs</li>
+              <li>Tracking included</li>
+            </ul>
+            <button class="btn btn-outline">Select</button>
+          </div>
+          <div class="pricing-card featured">
+            <h3>Express</h3>
+            <div class="price">$12.99</div>
+            <ul>
+              <li>1-2 business days</li>
+              <li>Up to 10 lbs</li>
+              <li>Priority handling</li>
+            </ul>
+            <button class="btn btn-primary">Select</button>
+          </div>
+          <div class="pricing-card">
+            <h3>International</h3>
+            <div class="price">$24.99</div>
+            <ul>
+              <li>5-7 business days</li>
+              <li>Up to 5 lbs</li>
+              <li>Customs clearance</li>
+            </ul>
+            <button class="btn btn-outline">Select</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p><i class="fas fa-map-marker-alt"></i> 123 Delivery St, Suite 100, New York, NY 10001</p>
+            <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+            <p><i class="fas fa-envelope"></i> info@swiftcourier.com</p>
+          </div>
+          <form id="contact-form" class="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <textarea id="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>SwiftCourier</h3>
+          <p>Delivering excellence since 2010. Your trusted partner for all shipping needs.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#tracking">Tracking</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Shipping Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2023 SwiftCourier. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
